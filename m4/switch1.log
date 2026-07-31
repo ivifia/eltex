@@ -1,0 +1,38 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2026.07.30 21:15:24 =~=~=~=~=~=~=~=~=~=~=~=
+enable
+vIOS-L2-01#sh spennint-tree
+                ^
+% Invalid input detected at '^' marker.
+
+vIOS-L2-01#sh spennint-tree-tree g-tree
+                ^
+% Invalid input detected at '^' marker.
+
+vIOS-L2-01#sh spenning-treenning-tree anning-tree
+
+VLAN0001
+  Spanning tree enabled protocol ieee
+  Root ID    Priority    4097
+             Address     0c54.588a.0000
+             Cost        4
+             Port        3 (GigabitEthernet0/2)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    32769  (priority 32768 sys-id-ext 1)
+             Address     0c17.1094.0000
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time  300 sec
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi0/0               Desg FWD 4         128.1    Shr 
+Gi0/1               Desg FWD 4         128.2    Shr 
+Gi0/2               Root FWD 4         128.3    Shr 
+Gi0/3               Altn BLK 4         128.4    Shr 
+Gi1/0               Desg FWD 4         128.5    Shr 
+Gi1/1               Desg FWD 4         128.6    Shr 
+Gi1/2               Desg FWD 4         128.7    Shr 
+Gi1/3               Desg FWD 4         128.8    Shr 
+ --More--         
+ --More--         
+vIOS-L2-01#
