@@ -1,0 +1,523 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2026.11.22 22:04:36 =~=~=~=~=~=~=~=~=~=~=~=
+login as: eltex-pg1-v5
+eltex-pg1-v5@217.71.138.1's password: 
+Linux eltex-2026-autumn 6.1.0-53-amd64 #1 SMP PREEMPT_DYNAMIC Debian 6.1.187-1 (2026-09-07) x86_64
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Sun Nov 22 21:58:21 2026 from 128.204.67.103
+eltex-pg1-v5@eltex-2026-autumn:~$ lsscreen -ls
+No Sockets found in /run/screen/S-eltex-pg1-v5.
+
+eltex-pg1-v5@eltex-2026-autumn:~$ screen -S ``w`h`o`a`m`i`_part2 -m
+eltex-pg1-v5@eltex-2026-autumn:~$ screen -ls
+There is a screen on:
+22611.eltex-pg1-v5_part2(11/22/2026 10:05:14 PM)(Attached)
+1 Socket in /run/screen/S-eltex-pg1-v5.
+eltex-pg1-v5@eltex-2026-autumn:~$ eltex-pg1-v5@eltex-2026-autumn:~$ screen -ls
+There is a screen on:
+22611.eltex-pg1-v5_part2(11/22/2026 10:05:14 PM)(Attached)
+1 Socket in /run/screen/S-eltex-pg1-v5.
+eltex-pg1-v5@eltex-2026-autumn:~$ eltex-pg1-v5@eltex-2026-autumn:~$ ls
+report_part1.txt
+eltex-pg1-v5@eltex-2026-autumn:~$ ls
+ls           lsblk        lscpu        lsinitramfs  lsirq        lslogins     lsmod        lsof         lsusb        
+lsattr       lsb_release  lsfd         lsipc        lslocks      lsmem        lsns         lspci        
+eltex-pg1-v5@eltex-2026-autumn:~$ ls$$HIST
+$HISTCMD       $HISTCONTROL   $HISTFILE      $HISTFILESIZE  $HISTSIZE      
+eltex-pg1-v5@eltex-2026-autumn:~$ $HISTecho %HISTFILESIZE
+%HISTFILESIZE
+eltex-pg1-v5@eltex-2026-autumn:~$ echo %HISTFILESIZEHISTFILESIZE$HISTFILESIZE
+2000
+eltex-pg1-v5@eltex-2026-autumn:~$ ls .
+./             ../            .bash_history  .bash_logout   .bashrc        .config/       .log           .profile       .viminfo       
+eltex-pg1-v5@eltex-2026-autumn:~$ ls .*
+.bash_history  .bash_logout  .bashrc  .log  .profile  .viminfo
+
+.config:
+procps
+eltex-pg1-v5@eltex-2026-autumn:~$ cd .config/
+eltex-pg1-v5@eltex-2026-autumn:~/.config$ ls
+procps
+eltex-pg1-v5@eltex-2026-autumn:~/.config$ cd ..
+eltex-pg1-v5@eltex-2026-autumn:~$ export HISTTIMEFORMAT=""%"F" "%"T" "
+eltex-pg1-v5@eltex-2026-autumn:~$ history 
+    1  2026-11-22 22:05:14 passwd
+    2  2026-11-22 22:05:14 top
+    3  2026-11-22 22:05:14 echo 
+    4  2026-11-22 22:05:14 top
+    5  2026-11-22 22:05:14 ls -al /bin/sbin
+    6  2026-11-22 22:05:14 ls \ la -a
+    7  2026-11-22 22:05:14 ls \ ls -a
+    8  2026-11-22 22:05:14 ls\ls -a
+    9  2026-11-22 22:05:14 l\s
+   10  2026-11-22 22:05:14 ls
+   11  2026-11-22 22:05:14 cd ~
+   12  2026-11-22 22:05:14 ls
+   13  2026-11-22 22:05:14 term
+   14  2026-11-22 22:05:14 echo $TERM
+   15  2026-11-22 22:05:14 echo $SHELL
+   16  2026-11-22 22:05:14 cd -
+   17  2026-11-22 22:05:14 cd /
+   18  2026-11-22 22:05:14 cd -
+   19  2026-11-22 22:05:14 ls -l $(which passwd)
+   20  2026-11-22 22:05:14 echo $(5/2)
+   21  2026-11-22 22:05:14 echo $((5/2))
+   22  2026-11-22 22:05:14 history 
+   23  2026-11-22 22:05:14 echo $HISTFILE
+   24  2026-11-22 22:05:14 cat .bash_history 
+   25  2026-11-22 22:05:14 history -a
+   26  2026-11-22 22:05:14 cat .bash_history 
+   27  2026-11-22 22:05:14 echo $BASH_ENV
+   28  2026-11-22 22:05:14 echo $UID
+   29  2026-11-22 22:05:14 screen -ls
+   30  2026-11-22 22:05:14 top
+   31  2026-11-22 22:05:14 ps -p $PPID -o comm=
+   32  2026-11-22 22:05:14 echo $TERM
+   33  2026-11-22 22:05:14 ps
+   34  2026-11-22 22:05:14 w
+   35  2026-11-22 22:05:14 ip a
+   36  2026-11-22 22:05:14 clear
+   37  2026-11-22 22:05:14 screen -ls
+   38  2026-11-22 22:05:14 w
+   39  2026-11-22 22:05:14 screen -ls
+   40  2026-11-22 22:05:14 echo $HOME
+   41  2026-11-22 22:05:14 ls -l
+   42  2026-11-22 22:05:14 ls
+   43  2026-11-22 22:05:14 echo $LC_ALL
+   44  2026-11-22 22:05:14 echo $LANG
+   45  2026-11-22 22:05:14 screen
+   46  2026-11-22 22:05:14 screen -ls
+   47  2026-11-22 22:05:14 screen -m
+   48  2026-11-22 22:05:14 screen -ls
+   49  2026-11-22 22:05:14 screen -m
+   50  2026-11-22 22:05:14 w
+   51  2026-11-22 22:05:14 screen -ls
+   52  2026-11-22 22:05:14 screen -r pts-0.eltex-2026-autumn 
+   53  2026-11-22 22:05:14 screen -ls
+   54  2026-11-22 22:05:14 w
+   55  2026-11-22 22:05:14 screen -r pts-0.eltex-2026-autumn 
+   56  2026-11-22 22:05:14 screen -ls
+   57  2026-11-22 22:05:14 screen -r pts-0.eltex-2026-autumn 
+   58  2026-11-22 22:05:14 screen -m 
+   59  2026-11-22 22:05:14 screen -ls
+   60  2026-11-22 22:05:14 vi report_part1.txt
+   61  2026-11-22 22:05:14 watch /usr/bin/vmstat 
+   62  2026-11-22 22:05:14 w
+   63  2026-11-22 22:05:14 ls
+   64  2026-11-22 22:05:14 w
+   65  2026-11-22 22:05:14 top
+   66  2026-11-22 22:05:14 screen -r 21021.pts-0.eltex-2026-autumn 
+   67  2026-11-22 22:05:14 screen -ls
+   68  2026-11-22 22:05:14 screen -r 20610.pts-0.eltex-2026-autumn 
+   69  2026-11-22 22:05:14 ls
+   70  2026-11-22 22:05:14 screen -ls
+   71  2026-11-22 22:05:14 cat report_part1.txt 
+   72  2026-11-22 22:05:14     1  2026-11-22 21:17:08 passwd
+   73  2026-11-22 22:05:14     2  2026-11-22 21:17:08 top
+   74  2026-11-22 22:05:14     3  2026-11-22 21:17:08 echo 
+   75  2026-11-22 22:05:14     4  2026-11-22 21:17:08 top
+   76  2026-11-22 22:05:14     5  2026-11-22 21:17:08 ls -al /bin/sbin
+   77  2026-11-22 22:05:14     6  2026-11-22 21:17:08 ls \ la -a
+   78  2026-11-22 22:05:14     7  2026-11-22 21:17:08 ls \ ls -a
+   79  2026-11-22 22:05:14     8  2026-11-22 21:17:08 ls\ls -a
+   80  2026-11-22 22:05:14     9  2026-11-22 21:17:08 l\s
+   81  2026-11-22 22:05:14    10  2026-11-22 21:17:08 ls
+   82  2026-11-22 22:05:14    11  2026-11-22 21:17:08 cd ~
+   83  2026-11-22 22:05:14    12  2026-11-22 21:17:08 ls
+   84  2026-11-22 22:05:14    13  2026-11-22 21:17:08 term
+   85  2026-11-22 22:05:14    14  2026-11-22 21:17:08 echo $TERM
+   86  2026-11-22 22:05:14    15  2026-11-22 21:17:08 echo $SHELL
+   87  2026-11-22 22:05:14    16  2026-11-22 21:17:08 cd -
+   88  2026-11-22 22:05:14    17  2026-11-22 21:17:08 cd /
+   89  2026-11-22 22:05:14    18  2026-11-22 21:17:08 cd -
+   90  2026-11-22 22:05:14    19  2026-11-22 21:17:08 ls -l $(which passwd)
+   91  2026-11-22 22:05:14    20  2026-11-22 21:17:08 echo $(5/2)
+   92  2026-11-22 22:05:14    21  2026-11-22 21:17:08 echo $((5/2))
+   93  2026-11-22 22:05:14    22  2026-11-22 21:17:08 history 
+   94  2026-11-22 22:05:14    23  2026-11-22 21:17:08 echo $HISTFILE
+   95  2026-11-22 22:05:14    24  2026-11-22 21:17:08 cat .bash_history 
+   96  2026-11-22 22:05:14    25  2026-11-22 21:17:08 history -a
+   97  2026-11-22 22:05:14    26  2026-11-22 21:17:08 cat .bash_history 
+   98  2026-11-22 22:05:14    27  2026-11-22 21:17:08 echo $BASH_ENV
+   99  2026-11-22 22:05:14    28  2026-11-22 21:17:08 echo $UID
+  100  2026-11-22 22:05:14    29  2026-11-22 21:17:08 screen -ls
+  101  2026-11-22 22:05:14    30  2026-11-22 21:17:08 top
+  102  2026-11-22 22:05:14    31  2026-11-22 21:17:08 ps -p $PPID -o comm=
+  103  2026-11-22 22:05:14    32  2026-11-22 21:17:08 echo $TERM
+  104  2026-11-22 22:05:14    33  2026-11-22 21:17:08 ps
+  105  2026-11-22 22:05:14    34  2026-11-22 21:17:08 w
+  106  2026-11-22 22:05:14    35  2026-11-22 21:17:08 ip a
+  107  2026-11-22 22:05:14    36  2026-11-22 21:17:08 clear
+  108  2026-11-22 22:05:14    37  2026-11-22 21:17:08 screen -ls
+  109  2026-11-22 22:05:14    38  2026-11-22 21:17:08 w
+  110  2026-11-22 22:05:14    39  2026-11-22 21:17:08 screen -ls
+  111  2026-11-22 22:05:14    40  2026-11-22 21:17:08 echo $HOME
+  112  2026-11-22 22:05:14    41  2026-11-22 21:17:08 ls -l
+  113  2026-11-22 22:05:14    42  2026-11-22 21:17:08 ls
+  114  2026-11-22 22:05:14    43  2026-11-22 21:17:08 echo $LC_ALL
+  115  2026-11-22 22:05:14    44  2026-11-22 21:17:08 echo $LANG
+  116  2026-11-22 22:05:14    45  2026-11-22 21:17:08 screen
+  117  2026-11-22 22:05:14    46  2026-11-22 21:17:08 screen -ls
+  118  2026-11-22 22:05:14    47  2026-11-22 21:17:08 screen -m
+  119  2026-11-22 22:05:14    48  2026-11-22 21:17:08 screen -ls
+  120  2026-11-22 22:05:14    49  2026-11-22 21:17:08 screen -m
+  121  2026-11-22 22:05:14    50  2026-11-22 21:17:08 w
+  122  2026-11-22 22:05:14    51  2026-11-22 21:17:08 screen -ls
+  123  2026-11-22 22:05:14    52  2026-11-22 21:17:08 screen -r pts-0.eltex-2026-autumn 
+  124  2026-11-22 22:05:14    53  2026-11-22 21:17:08 screen -ls
+  125  2026-11-22 22:05:14    54  2026-11-22 21:17:08 w
+  126  2026-11-22 22:05:14    55  2026-11-22 21:17:08 screen -r pts-0.eltex-2026-autumn 
+  127  2026-11-22 22:05:14    56  2026-11-22 21:17:08 screen -ls
+  128  2026-11-22 22:05:14    57  2026-11-22 21:17:08 screen -r pts-0.eltex-2026-autumn 
+  129  2026-11-22 22:05:14    58  2026-11-22 21:17:08 screen -m 
+  130  2026-11-22 22:05:14    59  2026-11-22 21:17:08 screen -ls
+  131  2026-11-22 22:05:14    60  2026-11-22 21:17:08 vi report_part1.txt
+  132  2026-11-22 22:05:14    61  2026-11-22 21:17:08 watch /usr/bin/vmstat 
+  133  2026-11-22 22:05:14    62  2026-11-22 21:17:08 w
+  134  2026-11-22 22:05:14    63  2026-11-22 21:17:08 ls
+  135  2026-11-22 22:05:14    64  2026-11-22 21:17:08 w
+  136  2026-11-22 22:05:14    65  2026-11-22 21:17:08 top
+  137  2026-11-22 22:05:14    66  2026-11-22 21:17:08 screen -r 21021.pts-0.eltex-2026-autumn 
+  138  2026-11-22 22:05:14    67  2026-11-22 21:17:08 screen -ls
+  139  2026-11-22 22:05:14    68  2026-11-22 21:17:08 screen -r 20610.pts-0.eltex-2026-autumn 
+  140  2026-11-22 22:05:14    69  2026-11-22 21:17:08 ls
+  141  2026-11-22 22:05:14    70  2026-11-22 21:17:08 screen -ls
+  142  2026-11-22 22:05:14    71  2026-11-22 21:17:08 cat report_part1.txt 
+  143  2026-11-22 22:05:14    72  2026-11-22 21:20:56 touch $USER_part.log
+  144  2026-11-22 22:05:14    73  2026-11-22 21:22:16 echo $HISTFILESIZE 
+  145  2026-11-22 22:05:14    74  2026-11-22 21:22:53 ls .
+  146  2026-11-22 22:05:14    75  2026-11-22 21:23:00 ls .*
+  147  2026-11-22 22:05:14    76  2026-11-22 21:24:56 export HISTTIMEFORMAT="%F %T"
+  148  2026-11-22 22:05:14    77  2026-11-22 21:25:00 history 
+  149  2026-11-22 22:05:14    78  2026-11-22 21:35:09 date
+  150  2026-11-22 22:05:14    79  2026-11-22 21:35:26 export HISTTIMEFORMAT="%F %T "
+  151  2026-11-22 22:05:14    80  2026-11-22 21:35:32 history 10
+  152  2026-11-22 22:05:14    81  2026-11-22 21:35:50 date
+  153  2026-11-22 22:05:14    82  2026-11-22 21:36:07 echo $HISTFILE
+  154  2026-11-22 22:05:14    83  2026-11-22 21:36:31 echo $HISTFILE | tail
+  155  2026-11-22 22:05:14    84  2026-11-22 21:36:45 tail | echo $HISTFILE 
+  156  2026-11-22 22:05:14    85  2026-11-22 21:37:21 tail .bash_history 
+  157  2026-11-22 22:05:14    86  2026-11-22 21:41:13 history >> .bash_history 
+  158  2026-11-22 21:20:56 touch $USER_part.log
+  159  2026-11-22 21:22:16 echo $HISTFILESIZE 
+  160  2026-11-22 21:22:53 ls .
+  161  2026-11-22 21:23:00 ls .*
+  162  2026-11-22 21:24:56 export HISTTIMEFORMAT="%F %T"
+  163  2026-11-22 21:25:00 history 
+  164  2026-11-22 21:35:09 date
+  165  2026-11-22 21:35:26 export HISTTIMEFORMAT="%F %T "
+  166  2026-11-22 21:35:32 history 10
+  167  2026-11-22 21:35:50 date
+  168  2026-11-22 21:36:07 echo $HISTFILE
+  169  2026-11-22 21:36:31 echo $HISTFILE | tail
+  170  2026-11-22 21:36:45 tail | echo $HISTFILE 
+  171  2026-11-22 21:37:21 tail .bash_history 
+  172  2026-11-22 21:41:13 history >> .bash_history 
+  173  2026-11-22 21:41:16 date
+  174  2026-11-22 21:41:25 tail .bash_history 
+  175  2026-11-22 21:44:07 vi .bash_history 
+  176  2026-11-22 21:46:08 echo $PROMPT_COMMAND
+  177  2026-11-22 21:48:43 export $PROMPT_COMMAND='history -a'
+  178  2026-11-22 21:48:57 export $PROMPT_COMMAND="history -a"
+  179  2026-11-22 21:49:07 export PROMPT_COMMAND="history -a"
+  180  2026-11-22 21:49:11 date
+  181  2026-11-22 21:49:21 tail .bash_history 
+  182  2026-11-22 21:49:26 date
+  183  2026-11-22 21:49:28 tail .bash_history 
+  184  2026-11-22 21:49:46 logout
+  185  2026-11-22 21:49:54 exit
+  186  2026-11-22 22:05:14 screen -S 'whoami'_part2 -m -d
+  187  2026-11-22 22:05:14 screen -ls
+  188  2026-11-22 22:05:14 screen -r whoami_part2 
+  189  2026-11-22 22:05:14 screen -S '$WHOAMI'_part2 -m -d
+  190  2026-11-22 22:05:14 screen -ls
+  191  2026-11-22 22:05:14 screen -r $WHOAMI_part2 
+  192  2026-11-22 22:05:14 screen -ls
+  193  2026-11-22 22:05:14 echo $WHOAMI
+  194  2026-11-22 22:05:14 whoami
+  195  2026-11-22 22:05:14 screen -S `whoami`_part2 -m
+  196  2026-11-22 22:05:14 screen -ls
+  197  2026-11-22 22:05:14 screen -r eltex-pg1-v5_part2 
+  198  2026-11-22 22:05:14 screen -ls
+  199  2026-11-22 22:05:14 logout
+  200  2026-11-22 22:05:14 screen -ls
+  201  2026-11-22 22:05:14 screen -r _part2 
+  202  2026-11-22 22:05:14 screen -ls
+  203  2026-11-22 22:05:14 ls
+  204  2026-11-22 22:05:14 touch $USER_partl.log
+  205  2026-11-22 22:05:14 ls
+  206  2026-11-22 22:05:14 ls -l
+  207  2026-11-22 22:05:14 ls -la
+  208  2026-11-22 22:05:14 touch $USER_part1.log
+  209  2026-11-22 22:05:14 ls
+  210  2026-11-22 22:05:14 touch ${USER}_part.log
+  211  2026-11-22 22:05:14 ls
+  212  2026-11-22 22:05:14 screen -ls
+  213  2026-11-22 22:05:14 screen -ls
+  214  2026-11-22 22:05:14 screen -S `whoami`_part2 -m
+  215  2026-11-22 22:05:14 screen -ls
+  216  2026-11-22 22:05:14 screen -r 22469._part2 
+  217  2026-11-22 22:05:14 screen -ls
+  218  2026-11-22 22:05:14 screen -S `whoami`_part2 -m
+  219  2026-11-22 22:05:14 logout
+  220  2026-11-22 22:05:14 screen -ls
+  221  2026-11-22 22:05:14 ls
+  222  2026-11-22 22:05:14 rm eltex-pg1-v5_part.log 
+  223  2026-11-22 22:05:14 screen -S `whoami`_part2 -m
+  224  2026-11-22 22:05:14 logout
+  225  2026-11-22 22:05:17 screen -ls
+  226  2026-11-22 22:05:37 ls
+  227  2026-11-22 22:06:28 echo %HISTFILESIZE
+  228  2026-11-22 22:06:35 echo $HISTFILESIZE
+  229  2026-11-22 22:07:04 ls .*
+  230  2026-11-22 22:07:12 cd .config/
+  231  2026-11-22 22:07:13 ls
+  232  2026-11-22 22:07:14 cd ..
+  233  2026-11-22 22:07:56 export HISTTIMEFORMAT="%F %T "
+  234  2026-11-22 22:07:59 history 
+eltex-pg1-v5@eltex-2026-autumn:~$ export PROMPT_COMMAND=""h"o"s"t"o"r"y"""""""i"s"t"o"r"y" "-"a""
+eltex-pg1-v5@eltex-2026-autumn:~$ date
+Sun Nov 22 10:09:01 PM +07 2026
+eltex-pg1-v5@eltex-2026-autumn:~$ ls tail ./bash_history 
+#1795360034
+cd ..
+#1795360076
+export HISTTIMEFORMAT="%F %T "
+#1795360079
+history 
+#1795360137
+export PROMPT_COMMAND="history -a"
+#1795360141
+date
+eltex-pg1-v5@eltex-2026-autumn:~$ ls
+report_part1.txt
+eltex-pg1-v5@eltex-2026-autumn:~$ touch ${}U}S}E}R}}_part1.log
+eltex-pg1-v5@eltex-2026-autumn:~$ ls
+eltex-pg1-v5_part.log  report_part1.txt
+eltex-pg1-v5@eltex-2026-autumn:~$ history -10
+  232  2026-11-22 22:07:14 cd ..
+  233  2026-11-22 22:07:56 export HISTTIMEFORMAT="%F %T "
+  234  2026-11-22 22:07:59 history 
+  235  2026-11-22 22:08:57 export PROMPT_COMMAND="history -a"
+  236  2026-11-22 22:09:01 date
+  237  2026-11-22 22:09:17 tail .bash_history 
+  238  2026-11-22 22:10:05 ls
+  239  2026-11-22 22:10:18 touch ${USER}_part.log
+  240  2026-11-22 22:10:19 ls
+  241  2026-11-22 22:12:15 history 10
+eltex-pg1-v5@eltex-2026-autumn:~$ ./bastail 10 .bash_history 
+tail: cannot open '10' for reading: No such file or directory
+==> .bash_history <==
+#1795360157
+tail .bash_history 
+#1795360205
+ls
+#1795360218
+touch ${USER}_part.log
+#1795360219
+ls
+#1795360335
+history 10
+eltex-pg1-v5@eltex-2026-autumn:~$ export DATE="da"""``d`a`t`e`
+eltex-pg1-v5@eltex-2026-autumn:~$ echo $DATE 
+Sun Nov 22 10:13:19 PM +07 2026
+eltex-pg1-v5@eltex-2026-autumn:~$ export $TIMETIME=``d`a`t`e` `+`%`T`
+eltex-pg1-v5@eltex-2026-autumn:~$ echo $TIME
+22:15:43
+eltex-pg1-v5@eltex-2026-autumn:~$ echo $TIME
+22:15:43
+eltex-pg1-v5@eltex-2026-autumn:~$ export DATE_TIME=""$"D"A"T"E":"$"T"I"M"E" $TIME"
+eltex-pg1-v5@eltex-2026-autumn:~$ echo $DATE_TIME 
+Sun Nov 22 10:13:19 PM +07 2026: 22:15:43
+eltex-pg1-v5@eltex-2026-autumn:~$ ls {}1}.}.}9}}*{1..9}{1..9}*/*{1..9}*b*{1..9}*i*{1..9}*n*{1..9}*/*{1..9}**{1..9}*
+ls: cannot access '/bin/*7*': No such file or directory
+ /bin/addr2line                   /bin/lto-dump-12                 /bin/x86_64                       /bin/x86_64-linux-gnu-gcc-nm-12         /bin/x86_64-linux-gnu-gp-display-text
+ /bin/b2sum                       /bin/md5sum                      /bin/x86_64                       /bin/x86_64-linux-gnu-gcc-nm-12         /bin/x86_64-linux-gnu-gprof
+ /bin/base32                      /bin/md5sum.textutils            /bin/x86_64-linux-gnu-addr2line   /bin/x86_64-linux-gnu-gcc-ranlib        /bin/x86_64-linux-gnu-gprof
+ /bin/base32                      /bin/pdb3                        /bin/x86_64-linux-gnu-addr2line   /bin/x86_64-linux-gnu-gcc-ranlib        /bin/x86_64-linux-gnu-gprof
+ /bin/base64                      /bin/pdb3.11                     /bin/x86_64-linux-gnu-addr2line   /bin/x86_64-linux-gnu-gcc-ranlib        /bin/x86_64-linux-gnu-gprofng
+ /bin/base64                      /bin/pdb3.11                     /bin/x86_64-linux-gnu-addr2line   /bin/x86_64-linux-gnu-gcc-ranlib-12     /bin/x86_64-linux-gnu-gprofng
+ /bin/bunzip2                     /bin/perl5.36.0                  /bin/x86_64-linux-gnu-ar          /bin/x86_64-linux-gnu-gcc-ranlib-12     /bin/x86_64-linux-gnu-gprofng
+ /bin/bzip2                       /bin/perl5.36.0                  /bin/x86_64-linux-gnu-ar          /bin/x86_64-linux-gnu-gcc-ranlib-12     /bin/x86_64-linux-gnu-ld
+ /bin/bzip2recover                /bin/perl5.36.0                  /bin/x86_64-linux-gnu-ar          /bin/x86_64-linux-gnu-gcc-ranlib-12     /bin/x86_64-linux-gnu-ld
+ /bin/c89                         /bin/perl5.36-x86_64-linux-gnu   /bin/x86_64-linux-gnu-as          /bin/x86_64-linux-gnu-gcc-ranlib-12     /bin/x86_64-linux-gnu-ld
+ /bin/c89                         /bin/perl5.36-x86_64-linux-gnu   /bin/x86_64-linux-gnu-as          /bin/x86_64-linux-gnu-gcov              /bin/x86_64-linux-gnu-ld.bfd
+ /bin/c89-gcc                     /bin/perl5.36-x86_64-linux-gnu   /bin/x86_64-linux-gnu-as          /bin/x86_64-linux-gnu-gcov              /bin/x86_64-linux-gnu-ld.bfd
+ /bin/c89-gcc                     /bin/perl5.36-x86_64-linux-gnu   /bin/x86_64-linux-gnu-c++filt     /bin/x86_64-linux-gnu-gcov              /bin/x86_64-linux-gnu-ld.bfd
+ /bin/c99                         /bin/perl5.36-x86_64-linux-gnu   /bin/x86_64-linux-gnu-c++filt     /bin/x86_64-linux-gnu-gcov-12           /bin/x86_64-linux-gnu-ld.gold
+ /bin/c99-gcc                     /bin/ping4                       /bin/x86_64-linux-gnu-c++filt     /bin/x86_64-linux-gnu-gcov-12           /bin/x86_64-linux-gnu-ld.gold
+ /bin/cpan5.36-x86_64-linux-gnu   /bin/ping6                       /bin/x86_64-linux-gnu-cpp         /bin/x86_64-linux-gnu-gcov-12           /bin/x86_64-linux-gnu-ld.gold
+ /bin/cpan5.36-x86_64-linux-gnu   /bin/pl2pm                       /bin/x86_64-linux-gnu-cpp         /bin/x86_64-linux-gnu-gcov-12           /bin/x86_64-linux-gnu-lto-dump
+ /bin/cpan5.36-x86_64-linux-gnu   /bin/pod2html                    /bin/x86_64-linux-gnu-cpp         /bin/x86_64-linux-gnu-gcov-12           /bin/x86_64-linux-gnu-lto-dump
+ /bin/cpan5.36-x86_64-linux-gnu   /bin/pod2man                     /bin/x86_64-linux-gnu-cpp-12      /bin/x86_64-linux-gnu-gcov-dump         /bin/x86_64-linux-gnu-lto-dump
+ /bin/cpan5.36-x86_64-linux-gnu   /bin/pod2text                    /bin/x86_64-linux-gnu-cpp-12      /bin/x86_64-linux-gnu-gcov-dump         /bin/x86_64-linux-gnu-lto-dump-12
+ /bin/cpp-12                      /bin/pod2usage                   /bin/x86_64-linux-gnu-cpp-12      /bin/x86_64-linux-gnu-gcov-dump         /bin/x86_64-linux-gnu-lto-dump-12
+ /bin/cpp-12                      /bin/py3clean                    /bin/x86_64-linux-gnu-cpp-12      /bin/x86_64-linux-gnu-gcov-dump-12      /bin/x86_64-linux-gnu-lto-dump-12
+ /bin/diff3                       /bin/py3compile                  /bin/x86_64-linux-gnu-cpp-12      /bin/x86_64-linux-gnu-gcov-dump-12      /bin/x86_64-linux-gnu-lto-dump-12
+ /bin/enc2xs                      /bin/py3versions                 /bin/x86_64-linux-gnu-dwp         /bin/x86_64-linux-gnu-gcov-dump-12      /bin/x86_64-linux-gnu-lto-dump-12
+ /bin/gcc-12                      /bin/pydoc3                      /bin/x86_64-linux-gnu-dwp         /bin/x86_64-linux-gnu-gcov-dump-12      /bin/x86_64-linux-gnu-nm
+ /bin/gcc-12                      /bin/pydoc3.11                   /bin/x86_64-linux-gnu-dwp         /bin/x86_64-linux-gnu-gcov-dump-12      /bin/x86_64-linux-gnu-nm
+ /bin/gcc-ar-12                   /bin/pydoc3.11                   /bin/x86_64-linux-gnu-elfedit     /bin/x86_64-linux-gnu-gcov-tool         /bin/x86_64-linux-gnu-nm
+ /bin/gcc-ar-12                   /bin/pygettext3                  /bin/x86_64-linux-gnu-elfedit     /bin/x86_64-linux-gnu-gcov-tool         /bin/x86_64-linux-gnu-objcopy
+ /bin/gcc-nm-12                   /bin/pygettext3.11               /bin/x86_64-linux-gnu-elfedit     /bin/x86_64-linux-gnu-gcov-tool         /bin/x86_64-linux-gnu-objcopy
+ /bin/gcc-nm-12                   /bin/pygettext3.11               /bin/x86_64-linux-gnu-gcc         /bin/x86_64-linux-gnu-gcov-tool-12      /bin/x86_64-linux-gnu-objcopy
+ /bin/gcc-ranlib-12               /bin/python3                     /bin/x86_64-linux-gnu-gcc         /bin/x86_64-linux-gnu-gcov-tool-12      /bin/x86_64-linux-gnu-objdump
+ /bin/gcc-ranlib-12               /bin/python3.11                  /bin/x86_64-linux-gnu-gcc         /bin/x86_64-linux-gnu-gcov-tool-12      /bin/x86_64-linux-gnu-objdump
+ /bin/gcov-12                     /bin/python3.11                  /bin/x86_64-linux-gnu-gcc-12      /bin/x86_64-linux-gnu-gcov-tool-12      /bin/x86_64-linux-gnu-objdump
+ /bin/gcov-12                     /bin/sha1sum                     /bin/x86_64-linux-gnu-gcc-12      /bin/x86_64-linux-gnu-gcov-tool-12      /bin/x86_64-linux-gnu-ranlib
+ /bin/gcov-dump-12                /bin/sha224sum                   /bin/x86_64-linux-gnu-gcc-12      /bin/x86_64-linux-gnu-gold              /bin/x86_64-linux-gnu-ranlib
+ /bin/gcov-dump-12                /bin/sha224sum                   /bin/x86_64-linux-gnu-gcc-12      /bin/x86_64-linux-gnu-gold              /bin/x86_64-linux-gnu-ranlib
+ /bin/gcov-tool-12                /bin/sha256sum                   /bin/x86_64-linux-gnu-gcc-12      /bin/x86_64-linux-gnu-gold              /bin/x86_64-linux-gnu-readelf
+ /bin/gcov-tool-12                /bin/sha256sum                   /bin/x86_64-linux-gnu-gcc-ar      /bin/x86_64-linux-gnu-gp-archive        /bin/x86_64-linux-gnu-readelf
+ /bin/grub-menulst2cfg            /bin/sha256sum                   /bin/x86_64-linux-gnu-gcc-ar      /bin/x86_64-linux-gnu-gp-archive        /bin/x86_64-linux-gnu-readelf
+ /bin/grub-mkpasswd-pbkdf2        /bin/sha384sum                   /bin/x86_64-linux-gnu-gcc-ar      /bin/x86_64-linux-gnu-gp-archive        /bin/x86_64-linux-gnu-size
+ /bin/grub-syslinux2cfg           /bin/sha384sum                   /bin/x86_64-linux-gnu-gcc-ar-12   /bin/x86_64-linux-gnu-gp-collect-app    /bin/x86_64-linux-gnu-size
+ /bin/h2ph                        /bin/sha384sum                   /bin/x86_64-linux-gnu-gcc-ar-12   /bin/x86_64-linux-gnu-gp-collect-app    /bin/x86_64-linux-gnu-size
+ /bin/h2xs                        /bin/sha512sum                   /bin/x86_64-linux-gnu-gcc-ar-12   /bin/x86_64-linux-gnu-gp-collect-app    /bin/x86_64-linux-gnu-strings
+ /bin/i386                        /bin/sha512sum                   /bin/x86_64-linux-gnu-gcc-ar-12   /bin/x86_64-linux-gnu-gp-display-html   /bin/x86_64-linux-gnu-strings
+ /bin/i386                        /bin/sha512sum                   /bin/x86_64-linux-gnu-gcc-ar-12   /bin/x86_64-linux-gnu-gp-display-html   /bin/x86_64-linux-gnu-strings
+ /bin/i386                        /bin/systemd-id128               /bin/x86_64-linux-gnu-gcc-nm      /bin/x86_64-linux-gnu-gp-display-html   /bin/x86_64-linux-gnu-strip
+ /bin/linux32                     /bin/systemd-id128               /bin/x86_64-linux-gnu-gcc-nm      /bin/x86_64-linux-gnu-gp-display-src    /bin/x86_64-linux-gnu-strip
+ /bin/linux32                     /bin/systemd-id128               /bin/x86_64-linux-gnu-gcc-nm      /bin/x86_64-linux-gnu-gp-display-src    /bin/x86_64-linux-gnu-strip
+ /bin/linux64                     /bin/traceroute6                 /bin/x86_64-linux-gnu-gcc-nm-12   /bin/x86_64-linux-gnu-gp-display-src
+ /bin/linux64                     /bin/traceroute6.db              /bin/x86_64-linux-gnu-gcc-nm-12   /bin/x86_64-linux-gnu-gp-display-text
+ /bin/lto-dump-12                 /bin/x86_64                      /bin/x86_64-linux-gnu-gcc-nm-12   /bin/x86_64-linux-gnu-gp-display-text
+eltex-pg1-v5@eltex-2026-autumn:~$ ls /bin/*{1..9}**{1..9}*;  ; ls/sbin/*{}1}.}.}9}}*
+ls: cannot access '/bin/*7*': No such file or directory
+ /bin/addr2line                   /bin/lto-dump-12                 /bin/x86_64                       /bin/x86_64-linux-gnu-gcc-nm-12         /bin/x86_64-linux-gnu-gp-display-text
+ /bin/b2sum                       /bin/md5sum                      /bin/x86_64                       /bin/x86_64-linux-gnu-gcc-nm-12         /bin/x86_64-linux-gnu-gprof
+ /bin/base32                      /bin/md5sum.textutils            /bin/x86_64-linux-gnu-addr2line   /bin/x86_64-linux-gnu-gcc-ranlib        /bin/x86_64-linux-gnu-gprof
+ /bin/base32                      /bin/pdb3                        /bin/x86_64-linux-gnu-addr2line   /bin/x86_64-linux-gnu-gcc-ranlib        /bin/x86_64-linux-gnu-gprof
+ /bin/base64                      /bin/pdb3.11                     /bin/x86_64-linux-gnu-addr2line   /bin/x86_64-linux-gnu-gcc-ranlib        /bin/x86_64-linux-gnu-gprofng
+ /bin/base64                      /bin/pdb3.11                     /bin/x86_64-linux-gnu-addr2line   /bin/x86_64-linux-gnu-gcc-ranlib-12     /bin/x86_64-linux-gnu-gprofng
+ /bin/bunzip2                     /bin/perl5.36.0                  /bin/x86_64-linux-gnu-ar          /bin/x86_64-linux-gnu-gcc-ranlib-12     /bin/x86_64-linux-gnu-gprofng
+ /bin/bzip2                       /bin/perl5.36.0                  /bin/x86_64-linux-gnu-ar          /bin/x86_64-linux-gnu-gcc-ranlib-12     /bin/x86_64-linux-gnu-ld
+ /bin/bzip2recover                /bin/perl5.36.0                  /bin/x86_64-linux-gnu-ar          /bin/x86_64-linux-gnu-gcc-ranlib-12     /bin/x86_64-linux-gnu-ld
+ /bin/c89                         /bin/perl5.36-x86_64-linux-gnu   /bin/x86_64-linux-gnu-as          /bin/x86_64-linux-gnu-gcc-ranlib-12     /bin/x86_64-linux-gnu-ld
+ /bin/c89                         /bin/perl5.36-x86_64-linux-gnu   /bin/x86_64-linux-gnu-as          /bin/x86_64-linux-gnu-gcov              /bin/x86_64-linux-gnu-ld.bfd
+ /bin/c89-gcc                     /bin/perl5.36-x86_64-linux-gnu   /bin/x86_64-linux-gnu-as          /bin/x86_64-linux-gnu-gcov              /bin/x86_64-linux-gnu-ld.bfd
+ /bin/c89-gcc                     /bin/perl5.36-x86_64-linux-gnu   /bin/x86_64-linux-gnu-c++filt     /bin/x86_64-linux-gnu-gcov              /bin/x86_64-linux-gnu-ld.bfd
+ /bin/c99                         /bin/perl5.36-x86_64-linux-gnu   /bin/x86_64-linux-gnu-c++filt     /bin/x86_64-linux-gnu-gcov-12           /bin/x86_64-linux-gnu-ld.gold
+ /bin/c99-gcc                     /bin/ping4                       /bin/x86_64-linux-gnu-c++filt     /bin/x86_64-linux-gnu-gcov-12           /bin/x86_64-linux-gnu-ld.gold
+ /bin/cpan5.36-x86_64-linux-gnu   /bin/ping6                       /bin/x86_64-linux-gnu-cpp         /bin/x86_64-linux-gnu-gcov-12           /bin/x86_64-linux-gnu-ld.gold
+ /bin/cpan5.36-x86_64-linux-gnu   /bin/pl2pm                       /bin/x86_64-linux-gnu-cpp         /bin/x86_64-linux-gnu-gcov-12           /bin/x86_64-linux-gnu-lto-dump
+ /bin/cpan5.36-x86_64-linux-gnu   /bin/pod2html                    /bin/x86_64-linux-gnu-cpp         /bin/x86_64-linux-gnu-gcov-12           /bin/x86_64-linux-gnu-lto-dump
+ /bin/cpan5.36-x86_64-linux-gnu   /bin/pod2man                     /bin/x86_64-linux-gnu-cpp-12      /bin/x86_64-linux-gnu-gcov-dump         /bin/x86_64-linux-gnu-lto-dump
+ /bin/cpan5.36-x86_64-linux-gnu   /bin/pod2text                    /bin/x86_64-linux-gnu-cpp-12      /bin/x86_64-linux-gnu-gcov-dump         /bin/x86_64-linux-gnu-lto-dump-12
+ /bin/cpp-12                      /bin/pod2usage                   /bin/x86_64-linux-gnu-cpp-12      /bin/x86_64-linux-gnu-gcov-dump         /bin/x86_64-linux-gnu-lto-dump-12
+ /bin/cpp-12                      /bin/py3clean                    /bin/x86_64-linux-gnu-cpp-12      /bin/x86_64-linux-gnu-gcov-dump-12      /bin/x86_64-linux-gnu-lto-dump-12
+ /bin/diff3                       /bin/py3compile                  /bin/x86_64-linux-gnu-cpp-12      /bin/x86_64-linux-gnu-gcov-dump-12      /bin/x86_64-linux-gnu-lto-dump-12
+ /bin/enc2xs                      /bin/py3versions                 /bin/x86_64-linux-gnu-dwp         /bin/x86_64-linux-gnu-gcov-dump-12      /bin/x86_64-linux-gnu-lto-dump-12
+ /bin/gcc-12                      /bin/pydoc3                      /bin/x86_64-linux-gnu-dwp         /bin/x86_64-linux-gnu-gcov-dump-12      /bin/x86_64-linux-gnu-nm
+ /bin/gcc-12                      /bin/pydoc3.11                   /bin/x86_64-linux-gnu-dwp         /bin/x86_64-linux-gnu-gcov-dump-12      /bin/x86_64-linux-gnu-nm
+ /bin/gcc-ar-12                   /bin/pydoc3.11                   /bin/x86_64-linux-gnu-elfedit     /bin/x86_64-linux-gnu-gcov-tool         /bin/x86_64-linux-gnu-nm
+ /bin/gcc-ar-12                   /bin/pygettext3                  /bin/x86_64-linux-gnu-elfedit     /bin/x86_64-linux-gnu-gcov-tool         /bin/x86_64-linux-gnu-objcopy
+ /bin/gcc-nm-12                   /bin/pygettext3.11               /bin/x86_64-linux-gnu-elfedit     /bin/x86_64-linux-gnu-gcov-tool         /bin/x86_64-linux-gnu-objcopy
+ /bin/gcc-nm-12                   /bin/pygettext3.11               /bin/x86_64-linux-gnu-gcc         /bin/x86_64-linux-gnu-gcov-tool-12      /bin/x86_64-linux-gnu-objcopy
+ /bin/gcc-ranlib-12               /bin/python3                     /bin/x86_64-linux-gnu-gcc         /bin/x86_64-linux-gnu-gcov-tool-12      /bin/x86_64-linux-gnu-objdump
+ /bin/gcc-ranlib-12               /bin/python3.11                  /bin/x86_64-linux-gnu-gcc         /bin/x86_64-linux-gnu-gcov-tool-12      /bin/x86_64-linux-gnu-objdump
+ /bin/gcov-12                     /bin/python3.11                  /bin/x86_64-linux-gnu-gcc-12      /bin/x86_64-linux-gnu-gcov-tool-12      /bin/x86_64-linux-gnu-objdump
+ /bin/gcov-12                     /bin/sha1sum                     /bin/x86_64-linux-gnu-gcc-12      /bin/x86_64-linux-gnu-gcov-tool-12      /bin/x86_64-linux-gnu-ranlib
+ /bin/gcov-dump-12                /bin/sha224sum                   /bin/x86_64-linux-gnu-gcc-12      /bin/x86_64-linux-gnu-gold              /bin/x86_64-linux-gnu-ranlib
+ /bin/gcov-dump-12                /bin/sha224sum                   /bin/x86_64-linux-gnu-gcc-12      /bin/x86_64-linux-gnu-gold              /bin/x86_64-linux-gnu-ranlib
+ /bin/gcov-tool-12                /bin/sha256sum                   /bin/x86_64-linux-gnu-gcc-12      /bin/x86_64-linux-gnu-gold              /bin/x86_64-linux-gnu-readelf
+ /bin/gcov-tool-12                /bin/sha256sum                   /bin/x86_64-linux-gnu-gcc-ar      /bin/x86_64-linux-gnu-gp-archive        /bin/x86_64-linux-gnu-readelf
+ /bin/grub-menulst2cfg            /bin/sha256sum                   /bin/x86_64-linux-gnu-gcc-ar      /bin/x86_64-linux-gnu-gp-archive        /bin/x86_64-linux-gnu-readelf
+ /bin/grub-mkpasswd-pbkdf2        /bin/sha384sum                   /bin/x86_64-linux-gnu-gcc-ar      /bin/x86_64-linux-gnu-gp-archive        /bin/x86_64-linux-gnu-size
+ /bin/grub-syslinux2cfg           /bin/sha384sum                   /bin/x86_64-linux-gnu-gcc-ar-12   /bin/x86_64-linux-gnu-gp-collect-app    /bin/x86_64-linux-gnu-size
+ /bin/h2ph                        /bin/sha384sum                   /bin/x86_64-linux-gnu-gcc-ar-12   /bin/x86_64-linux-gnu-gp-collect-app    /bin/x86_64-linux-gnu-size
+ /bin/h2xs                        /bin/sha512sum                   /bin/x86_64-linux-gnu-gcc-ar-12   /bin/x86_64-linux-gnu-gp-collect-app    /bin/x86_64-linux-gnu-strings
+ /bin/i386                        /bin/sha512sum                   /bin/x86_64-linux-gnu-gcc-ar-12   /bin/x86_64-linux-gnu-gp-display-html   /bin/x86_64-linux-gnu-strings
+ /bin/i386                        /bin/sha512sum                   /bin/x86_64-linux-gnu-gcc-ar-12   /bin/x86_64-linux-gnu-gp-display-html   /bin/x86_64-linux-gnu-strings
+ /bin/i386                        /bin/systemd-id128               /bin/x86_64-linux-gnu-gcc-nm      /bin/x86_64-linux-gnu-gp-display-html   /bin/x86_64-linux-gnu-strip
+ /bin/linux32                     /bin/systemd-id128               /bin/x86_64-linux-gnu-gcc-nm      /bin/x86_64-linux-gnu-gp-display-src    /bin/x86_64-linux-gnu-strip
+ /bin/linux32                     /bin/systemd-id128               /bin/x86_64-linux-gnu-gcc-nm      /bin/x86_64-linux-gnu-gp-display-src    /bin/x86_64-linux-gnu-strip
+ /bin/linux64                     /bin/traceroute6                 /bin/x86_64-linux-gnu-gcc-nm-12   /bin/x86_64-linux-gnu-gp-display-src
+ /bin/linux64                     /bin/traceroute6.db              /bin/x86_64-linux-gnu-gcc-nm-12   /bin/x86_64-linux-gnu-gp-display-text
+ /bin/lto-dump-12                 /bin/x86_64                      /bin/x86_64-linux-gnu-gcc-nm-12   /bin/x86_64-linux-gnu-gp-display-text
+bash: ls/sbin/*1*: No such file or directory
+eltex-pg1-v5@eltex-2026-autumn:~$ ls /bin/*{1..9}*; ls/sbin/*{1..9}* /sbin/*{1..9}*
+ls: cannot access '/bin/*7*': No such file or directory
+ /bin/addr2line                   /bin/lto-dump-12                 /bin/x86_64                       /bin/x86_64-linux-gnu-gcc-nm-12         /bin/x86_64-linux-gnu-gp-display-text
+ /bin/b2sum                       /bin/md5sum                      /bin/x86_64                       /bin/x86_64-linux-gnu-gcc-nm-12         /bin/x86_64-linux-gnu-gprof
+ /bin/base32                      /bin/md5sum.textutils            /bin/x86_64-linux-gnu-addr2line   /bin/x86_64-linux-gnu-gcc-ranlib        /bin/x86_64-linux-gnu-gprof
+ /bin/base32                      /bin/pdb3                        /bin/x86_64-linux-gnu-addr2line   /bin/x86_64-linux-gnu-gcc-ranlib        /bin/x86_64-linux-gnu-gprof
+ /bin/base64                      /bin/pdb3.11                     /bin/x86_64-linux-gnu-addr2line   /bin/x86_64-linux-gnu-gcc-ranlib        /bin/x86_64-linux-gnu-gprofng
+ /bin/base64                      /bin/pdb3.11                     /bin/x86_64-linux-gnu-addr2line   /bin/x86_64-linux-gnu-gcc-ranlib-12     /bin/x86_64-linux-gnu-gprofng
+ /bin/bunzip2                     /bin/perl5.36.0                  /bin/x86_64-linux-gnu-ar          /bin/x86_64-linux-gnu-gcc-ranlib-12     /bin/x86_64-linux-gnu-gprofng
+ /bin/bzip2                       /bin/perl5.36.0                  /bin/x86_64-linux-gnu-ar          /bin/x86_64-linux-gnu-gcc-ranlib-12     /bin/x86_64-linux-gnu-ld
+ /bin/bzip2recover                /bin/perl5.36.0                  /bin/x86_64-linux-gnu-ar          /bin/x86_64-linux-gnu-gcc-ranlib-12     /bin/x86_64-linux-gnu-ld
+ /bin/c89                         /bin/perl5.36-x86_64-linux-gnu   /bin/x86_64-linux-gnu-as          /bin/x86_64-linux-gnu-gcc-ranlib-12     /bin/x86_64-linux-gnu-ld
+ /bin/c89                         /bin/perl5.36-x86_64-linux-gnu   /bin/x86_64-linux-gnu-as          /bin/x86_64-linux-gnu-gcov              /bin/x86_64-linux-gnu-ld.bfd
+ /bin/c89-gcc                     /bin/perl5.36-x86_64-linux-gnu   /bin/x86_64-linux-gnu-as          /bin/x86_64-linux-gnu-gcov              /bin/x86_64-linux-gnu-ld.bfd
+ /bin/c89-gcc                     /bin/perl5.36-x86_64-linux-gnu   /bin/x86_64-linux-gnu-c++filt     /bin/x86_64-linux-gnu-gcov              /bin/x86_64-linux-gnu-ld.bfd
+ /bin/c99                         /bin/perl5.36-x86_64-linux-gnu   /bin/x86_64-linux-gnu-c++filt     /bin/x86_64-linux-gnu-gcov-12           /bin/x86_64-linux-gnu-ld.gold
+ /bin/c99-gcc                     /bin/ping4                       /bin/x86_64-linux-gnu-c++filt     /bin/x86_64-linux-gnu-gcov-12           /bin/x86_64-linux-gnu-ld.gold
+ /bin/cpan5.36-x86_64-linux-gnu   /bin/ping6                       /bin/x86_64-linux-gnu-cpp         /bin/x86_64-linux-gnu-gcov-12           /bin/x86_64-linux-gnu-ld.gold
+ /bin/cpan5.36-x86_64-linux-gnu   /bin/pl2pm                       /bin/x86_64-linux-gnu-cpp         /bin/x86_64-linux-gnu-gcov-12           /bin/x86_64-linux-gnu-lto-dump
+ /bin/cpan5.36-x86_64-linux-gnu   /bin/pod2html                    /bin/x86_64-linux-gnu-cpp         /bin/x86_64-linux-gnu-gcov-12           /bin/x86_64-linux-gnu-lto-dump
+ /bin/cpan5.36-x86_64-linux-gnu   /bin/pod2man                     /bin/x86_64-linux-gnu-cpp-12      /bin/x86_64-linux-gnu-gcov-dump         /bin/x86_64-linux-gnu-lto-dump
+ /bin/cpan5.36-x86_64-linux-gnu   /bin/pod2text                    /bin/x86_64-linux-gnu-cpp-12      /bin/x86_64-linux-gnu-gcov-dump         /bin/x86_64-linux-gnu-lto-dump-12
+ /bin/cpp-12                      /bin/pod2usage                   /bin/x86_64-linux-gnu-cpp-12      /bin/x86_64-linux-gnu-gcov-dump         /bin/x86_64-linux-gnu-lto-dump-12
+ /bin/cpp-12                      /bin/py3clean                    /bin/x86_64-linux-gnu-cpp-12      /bin/x86_64-linux-gnu-gcov-dump-12      /bin/x86_64-linux-gnu-lto-dump-12
+ /bin/diff3                       /bin/py3compile                  /bin/x86_64-linux-gnu-cpp-12      /bin/x86_64-linux-gnu-gcov-dump-12      /bin/x86_64-linux-gnu-lto-dump-12
+ /bin/enc2xs                      /bin/py3versions                 /bin/x86_64-linux-gnu-dwp         /bin/x86_64-linux-gnu-gcov-dump-12      /bin/x86_64-linux-gnu-lto-dump-12
+ /bin/gcc-12                      /bin/pydoc3                      /bin/x86_64-linux-gnu-dwp         /bin/x86_64-linux-gnu-gcov-dump-12      /bin/x86_64-linux-gnu-nm
+ /bin/gcc-12                      /bin/pydoc3.11                   /bin/x86_64-linux-gnu-dwp         /bin/x86_64-linux-gnu-gcov-dump-12      /bin/x86_64-linux-gnu-nm
+ /bin/gcc-ar-12                   /bin/pydoc3.11                   /bin/x86_64-linux-gnu-elfedit     /bin/x86_64-linux-gnu-gcov-tool         /bin/x86_64-linux-gnu-nm
+ /bin/gcc-ar-12                   /bin/pygettext3                  /bin/x86_64-linux-gnu-elfedit     /bin/x86_64-linux-gnu-gcov-tool         /bin/x86_64-linux-gnu-objcopy
+ /bin/gcc-nm-12                   /bin/pygettext3.11               /bin/x86_64-linux-gnu-elfedit     /bin/x86_64-linux-gnu-gcov-tool         /bin/x86_64-linux-gnu-objcopy
+ /bin/gcc-nm-12                   /bin/pygettext3.11               /bin/x86_64-linux-gnu-gcc         /bin/x86_64-linux-gnu-gcov-tool-12      /bin/x86_64-linux-gnu-objcopy
+ /bin/gcc-ranlib-12               /bin/python3                     /bin/x86_64-linux-gnu-gcc         /bin/x86_64-linux-gnu-gcov-tool-12      /bin/x86_64-linux-gnu-objdump
+ /bin/gcc-ranlib-12               /bin/python3.11                  /bin/x86_64-linux-gnu-gcc         /bin/x86_64-linux-gnu-gcov-tool-12      /bin/x86_64-linux-gnu-objdump
+ /bin/gcov-12                     /bin/python3.11                  /bin/x86_64-linux-gnu-gcc-12      /bin/x86_64-linux-gnu-gcov-tool-12      /bin/x86_64-linux-gnu-objdump
+ /bin/gcov-12                     /bin/sha1sum                     /bin/x86_64-linux-gnu-gcc-12      /bin/x86_64-linux-gnu-gcov-tool-12      /bin/x86_64-linux-gnu-ranlib
+ /bin/gcov-dump-12                /bin/sha224sum                   /bin/x86_64-linux-gnu-gcc-12      /bin/x86_64-linux-gnu-gold              /bin/x86_64-linux-gnu-ranlib
+ /bin/gcov-dump-12                /bin/sha224sum                   /bin/x86_64-linux-gnu-gcc-12      /bin/x86_64-linux-gnu-gold              /bin/x86_64-linux-gnu-ranlib
+ /bin/gcov-tool-12                /bin/sha256sum                   /bin/x86_64-linux-gnu-gcc-12      /bin/x86_64-linux-gnu-gold              /bin/x86_64-linux-gnu-readelf
+ /bin/gcov-tool-12                /bin/sha256sum                   /bin/x86_64-linux-gnu-gcc-ar      /bin/x86_64-linux-gnu-gp-archive        /bin/x86_64-linux-gnu-readelf
+ /bin/grub-menulst2cfg            /bin/sha256sum                   /bin/x86_64-linux-gnu-gcc-ar      /bin/x86_64-linux-gnu-gp-archive        /bin/x86_64-linux-gnu-readelf
+ /bin/grub-mkpasswd-pbkdf2        /bin/sha384sum                   /bin/x86_64-linux-gnu-gcc-ar      /bin/x86_64-linux-gnu-gp-archive        /bin/x86_64-linux-gnu-size
+ /bin/grub-syslinux2cfg           /bin/sha384sum                   /bin/x86_64-linux-gnu-gcc-ar-12   /bin/x86_64-linux-gnu-gp-collect-app    /bin/x86_64-linux-gnu-size
+ /bin/h2ph                        /bin/sha384sum                   /bin/x86_64-linux-gnu-gcc-ar-12   /bin/x86_64-linux-gnu-gp-collect-app    /bin/x86_64-linux-gnu-size
+ /bin/h2xs                        /bin/sha512sum                   /bin/x86_64-linux-gnu-gcc-ar-12   /bin/x86_64-linux-gnu-gp-collect-app    /bin/x86_64-linux-gnu-strings
+ /bin/i386                        /bin/sha512sum                   /bin/x86_64-linux-gnu-gcc-ar-12   /bin/x86_64-linux-gnu-gp-display-html   /bin/x86_64-linux-gnu-strings
+ /bin/i386                        /bin/sha512sum                   /bin/x86_64-linux-gnu-gcc-ar-12   /bin/x86_64-linux-gnu-gp-display-html   /bin/x86_64-linux-gnu-strings
+ /bin/i386                        /bin/systemd-id128               /bin/x86_64-linux-gnu-gcc-nm      /bin/x86_64-linux-gnu-gp-display-html   /bin/x86_64-linux-gnu-strip
+ /bin/linux32                     /bin/systemd-id128               /bin/x86_64-linux-gnu-gcc-nm      /bin/x86_64-linux-gnu-gp-display-src    /bin/x86_64-linux-gnu-strip
+ /bin/linux32                     /bin/systemd-id128               /bin/x86_64-linux-gnu-gcc-nm      /bin/x86_64-linux-gnu-gp-display-src    /bin/x86_64-linux-gnu-strip
+ /bin/linux64                     /bin/traceroute6                 /bin/x86_64-linux-gnu-gcc-nm-12   /bin/x86_64-linux-gnu-gp-display-src
+ /bin/linux64                     /bin/traceroute6.db              /bin/x86_64-linux-gnu-gcc-nm-12   /bin/x86_64-linux-gnu-gp-display-text
+ /bin/lto-dump-12                 /bin/x86_64                      /bin/x86_64-linux-gnu-gcc-nm-12   /bin/x86_64-linux-gnu-gp-display-text
+ls: cannot access '/sbin/*1*': No such file or directory
+ls: cannot access '/sbin/*6*': No such file or directory
+ls: cannot access '/sbin/*7*': No such file or directory
+ls: cannot access '/sbin/*8*': No such file or directory
+ls: cannot access '/sbin/*9*': No such file or directory
+ /sbin/dumpe2fs     /sbin/e2fsck    /sbin/e2label       /sbin/e2scrub       /sbin/e2undo    /sbin/e4defrag    /sbin/fsck.ext3   /sbin/killall5   /sbin/mkfs.ext2   /sbin/mkfs.ext4   /sbin/tune2fs
+ /sbin/e2freefrag   /sbin/e2image   /sbin/e2mmpstatus   /sbin/e2scrub_all   /sbin/e4crypt   /sbin/fsck.ext2   /sbin/fsck.ext4   /sbin/mke2fs     /sbin/mkfs.ext3   /sbin/resize2fs   /sbin/update-grub2
+eltex-pg1-v5@eltex-2026-autumn:~$ echo $HOSTFILE
+
+eltex-pg1-v5@eltex-2026-autumn:~$ echo $HOSTFILEnNAME
+eltex-2026-autumn
+eltex-pg1-v5@eltex-2026-autumn:~$ echo $HOSTNAMETYPE
+x86_64
+eltex-pg1-v5@eltex-2026-autumn:~$ echo $PS1
+${debian_chroot:+($debian_chroot)}\u@\h:\w\$
+eltex-pg1-v5@eltex-2026-autumn:~$ export $PS1PS1PS1=echo $WHWHOexport $PS1PS1PS1=""`"`"w`"h`"o`"a`"m`"i`"`@"$"{"}"H}"O}"S}"T}"N}"A}"M}"E}"}-"%"T"^C
+eltex-pg1-v5@eltex-2026-autumn:~$ echo $PS1exeport PS1=""`"`"w`"h`"o`"a`"m`"i`"`@"{"}"H}"O}"S}"T}"N}"A}"M}"E}"}-"$"(")"d)"a)"t)"e)" )"+)"`${}USER}@{HOSTNAME}-$(date +)"%)"H)":)"%)"M)")>"
+eltex-pg1-v5@{HOSTNAME}-22:28>export PS1="${USER}@{HOSTNAME}-$(date +%H:%M)>"$
+eltex-pg1-v5@eltex-2026-autumn-22:28>export PS1="${USER}@${HOSTNAME}-$(date +%H:%M)>" >> .bashrc 
+eltex-pg1-v5@eltex-2026-autumn-22:31>mkdir >> ~/>> ~/ ~/>> ~/>> ~f
+bash: f: command not found
+eltex-pg1-v5@eltex-2026-autumn-22:31>>> ~/>> ~>> ~/>> ~nkdir -p ~$()d)a)t)e) )+)%)Y))""$(date +%Y)"-{}1}.}.}1}2}
+bash: nkdir: command not found
+eltex-pg1-v5@eltex-2026-autumn-22:31>nkdir -p "$(date +%Y)"-{1..12}m
+eltex-pg1-v5@eltex-2026-autumn-22:31>ls
+2026-1  2026-10  2026-11  2026-12  2026-2  2026-3  2026-4  2026-5  2026-6  2026-7  2026-8  2026-9  eltex-pg1-v5_part.log  report_part1.txt
+eltex-pg1-v5@eltex-2026-autumn-22:31>
